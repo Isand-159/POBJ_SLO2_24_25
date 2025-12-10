@@ -21,6 +21,8 @@
 //-- personnal libraries -> class --//
 #include "mesFcts.h"
 #include "personnage.h"
+//#include "Armes.h"
+#include "couteau.h"
 
 //-- main programme -> entry point of the programm --//
 void main()
@@ -67,8 +69,13 @@ void main()
 	Personnage slo2Student(50);		//object statique 
 	Personnage *slo2Etudiant;	//object dynamique 
 
+	couteau couteauSuisse("couteau suisse", 1);  
+
+
 
 	slo2Student.taille = 160; 
+
+	
 
 
 	//-- object instantiation --// 
@@ -83,6 +90,19 @@ void main()
 
 	//-- affficher vie sur objet dynamique
 	slo2Etudiant->AfficherVie(); 
+
+	//-- tester une exception --// 
+	try 
+	{
+		slo2Etudiant->Attaquer(); 
+	}
+	catch (std::exception &erreur)
+	{
+		//-- affichage exception --// 
+		std::cerr << "cause de l'exception : " << erreur.what() << std::endl; 
+		std::cerr << "type d'erreur : " << typeid(erreur).name() << std::endl; 
+	}
+
 
 	//-- destruction de l'objet dynamique
 	delete slo2Etudiant; 

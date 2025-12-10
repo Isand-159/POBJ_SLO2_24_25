@@ -3,16 +3,40 @@
   "WorkspaceRootPath": "C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCpp\\POBJ_DEMO_CPP_25_26\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DE4028D8-895D-4F6A-A3BD-3609EA1AD41C}|POBJ_DEMO_CPP_23_24.vcxproj|C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCpp\\POBJ_DEMO_CPP_25_26\\personnage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{DE4028D8-895D-4F6A-A3BD-3609EA1AD41C}|POBJ_DEMO_CPP_23_24.vcxproj|solutionrelative:personnage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{DE4028D8-895D-4F6A-A3BD-3609EA1AD41C}|POBJ_DEMO_CPP_23_24.vcxproj|C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCpp\\POBJ_DEMO_CPP_25_26\\personnage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DE4028D8-895D-4F6A-A3BD-3609EA1AD41C}|POBJ_DEMO_CPP_23_24.vcxproj|solutionrelative:personnage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4028D8-895D-4F6A-A3BD-3609EA1AD41C}|POBJ_DEMO_CPP_23_24.vcxproj|C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCpp\\POBJ_DEMO_CPP_25_26\\couteau.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DE4028D8-895D-4F6A-A3BD-3609EA1AD41C}|POBJ_DEMO_CPP_23_24.vcxproj|solutionrelative:couteau.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DE4028D8-895D-4F6A-A3BD-3609EA1AD41C}|POBJ_DEMO_CPP_23_24.vcxproj|C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCpp\\POBJ_DEMO_CPP_25_26\\demoSLO.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{DE4028D8-895D-4F6A-A3BD-3609EA1AD41C}|POBJ_DEMO_CPP_23_24.vcxproj|solutionrelative:demoSLO.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE4028D8-895D-4F6A-A3BD-3609EA1AD41C}|POBJ_DEMO_CPP_23_24.vcxproj|C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCpp\\POBJ_DEMO_CPP_25_26\\personnage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{DE4028D8-895D-4F6A-A3BD-3609EA1AD41C}|POBJ_DEMO_CPP_23_24.vcxproj|solutionrelative:personnage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{DE4028D8-895D-4F6A-A3BD-3609EA1AD41C}|POBJ_DEMO_CPP_23_24.vcxproj|C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCpp\\POBJ_DEMO_CPP_25_26\\personnage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DE4028D8-895D-4F6A-A3BD-3609EA1AD41C}|POBJ_DEMO_CPP_23_24.vcxproj|solutionrelative:personnage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4028D8-895D-4F6A-A3BD-3609EA1AD41C}|POBJ_DEMO_CPP_23_24.vcxproj|C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCpp\\POBJ_DEMO_CPP_25_26\\couteau.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DE4028D8-895D-4F6A-A3BD-3609EA1AD41C}|POBJ_DEMO_CPP_23_24.vcxproj|solutionrelative:couteau.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4028D8-895D-4F6A-A3BD-3609EA1AD41C}|POBJ_DEMO_CPP_23_24.vcxproj|C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCpp\\POBJ_DEMO_CPP_25_26\\Armes.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DE4028D8-895D-4F6A-A3BD-3609EA1AD41C}|POBJ_DEMO_CPP_23_24.vcxproj|solutionrelative:Armes.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4028D8-895D-4F6A-A3BD-3609EA1AD41C}|POBJ_DEMO_CPP_23_24.vcxproj|C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCpp\\POBJ_DEMO_CPP_25_26\\Armes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DE4028D8-895D-4F6A-A3BD-3609EA1AD41C}|POBJ_DEMO_CPP_23_24.vcxproj|solutionrelative:Armes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4028D8-895D-4F6A-A3BD-3609EA1AD41C}|POBJ_DEMO_CPP_23_24.vcxproj|C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCpp\\POBJ_DEMO_CPP_25_26\\user.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DE4028D8-895D-4F6A-A3BD-3609EA1AD41C}|POBJ_DEMO_CPP_23_24.vcxproj|solutionrelative:user.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4028D8-895D-4F6A-A3BD-3609EA1AD41C}|POBJ_DEMO_CPP_23_24.vcxproj|C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCpp\\POBJ_DEMO_CPP_25_26\\mesFcts.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DE4028D8-895D-4F6A-A3BD-3609EA1AD41C}|POBJ_DEMO_CPP_23_24.vcxproj|solutionrelative:mesFcts.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DE4028D8-895D-4F6A-A3BD-3609EA1AD41C}|POBJ_DEMO_CPP_23_24.vcxproj|C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCpp\\POBJ_DEMO_CPP_25_26\\MesMethodes.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -21,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{DE4028D8-895D-4F6A-A3BD-3609EA1AD41C}|POBJ_DEMO_CPP_23_24.vcxproj|C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCpp\\POBJ_DEMO_CPP_25_26\\ClassDemo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{DE4028D8-895D-4F6A-A3BD-3609EA1AD41C}|POBJ_DEMO_CPP_23_24.vcxproj|solutionrelative:ClassDemo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE4028D8-895D-4F6A-A3BD-3609EA1AD41C}|POBJ_DEMO_CPP_23_24.vcxproj|C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCpp\\POBJ_DEMO_CPP_25_26\\mesFcts.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{DE4028D8-895D-4F6A-A3BD-3609EA1AD41C}|POBJ_DEMO_CPP_23_24.vcxproj|solutionrelative:mesFcts.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,36 +54,99 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
+              "Title": "user.cpp",
+              "DocumentMoniker": "C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCpp\\POBJ_DEMO_CPP_25_26\\user.cpp",
+              "RelativeDocumentMoniker": "user.cpp",
+              "ToolTip": "C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCpp\\POBJ_DEMO_CPP_25_26\\user.cpp",
+              "RelativeToolTip": "user.cpp",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-01T11:09:45.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "couteau.cpp",
+              "DocumentMoniker": "C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCpp\\POBJ_DEMO_CPP_25_26\\couteau.cpp",
+              "RelativeDocumentMoniker": "couteau.cpp",
+              "ToolTip": "C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCpp\\POBJ_DEMO_CPP_25_26\\couteau.cpp",
+              "RelativeToolTip": "couteau.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-01T10:58:40.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "couteau.h",
+              "DocumentMoniker": "C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCpp\\POBJ_DEMO_CPP_25_26\\couteau.h",
+              "RelativeDocumentMoniker": "couteau.h",
+              "ToolTip": "C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCpp\\POBJ_DEMO_CPP_25_26\\couteau.h",
+              "RelativeToolTip": "couteau.h",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-01T10:43:19.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Armes.cpp",
+              "DocumentMoniker": "C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCpp\\POBJ_DEMO_CPP_25_26\\Armes.cpp",
+              "RelativeDocumentMoniker": "Armes.cpp",
+              "ToolTip": "C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCpp\\POBJ_DEMO_CPP_25_26\\Armes.cpp",
+              "RelativeToolTip": "Armes.cpp",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAACwAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-01T07:55:53.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Armes.h",
+              "DocumentMoniker": "C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCpp\\POBJ_DEMO_CPP_25_26\\Armes.h",
+              "RelativeDocumentMoniker": "Armes.h",
+              "ToolTip": "C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCpp\\POBJ_DEMO_CPP_25_26\\Armes.h",
+              "RelativeToolTip": "Armes.h",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-01T07:25:44.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "personnage.cpp",
               "DocumentMoniker": "C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCpp\\POBJ_DEMO_CPP_25_26\\personnage.cpp",
               "RelativeDocumentMoniker": "personnage.cpp",
               "ToolTip": "C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCpp\\POBJ_DEMO_CPP_25_26\\personnage.cpp",
               "RelativeToolTip": "personnage.cpp",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAB0AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-26T06:37:52.223Z"
+              "WhenOpened": "2025-11-26T06:37:52.223Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "personnage.h",
               "DocumentMoniker": "C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCpp\\POBJ_DEMO_CPP_25_26\\personnage.h",
               "RelativeDocumentMoniker": "personnage.h",
               "ToolTip": "C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCpp\\POBJ_DEMO_CPP_25_26\\personnage.h",
               "RelativeToolTip": "personnage.h",
-              "ViewState": "AgIAACEAAAAAAAAAAIAwwCsAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-11-26T06:33:03.282Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "ClassDemo.h",
               "DocumentMoniker": "C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCpp\\POBJ_DEMO_CPP_25_26\\ClassDemo.h",
               "RelativeDocumentMoniker": "ClassDemo.h",
@@ -75,7 +158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "MesMethodes.cpp",
               "DocumentMoniker": "C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCpp\\POBJ_DEMO_CPP_25_26\\MesMethodes.cpp",
               "RelativeDocumentMoniker": "MesMethodes.cpp",
@@ -87,25 +170,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "mesFcts.h",
               "DocumentMoniker": "C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCpp\\POBJ_DEMO_CPP_25_26\\mesFcts.h",
               "RelativeDocumentMoniker": "mesFcts.h",
               "ToolTip": "C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCpp\\POBJ_DEMO_CPP_25_26\\mesFcts.h",
               "RelativeToolTip": "mesFcts.h",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-11-18T09:18:27.87Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "demoSLO.cpp",
               "DocumentMoniker": "C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCpp\\POBJ_DEMO_CPP_25_26\\demoSLO.cpp",
               "RelativeDocumentMoniker": "demoSLO.cpp",
               "ToolTip": "C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCpp\\POBJ_DEMO_CPP_25_26\\demoSLO.cpp",
               "RelativeToolTip": "demoSLO.cpp",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAGMAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-11-17T12:11:02.068Z",
               "EditorCaption": ""

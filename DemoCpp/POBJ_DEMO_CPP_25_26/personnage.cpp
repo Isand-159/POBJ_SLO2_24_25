@@ -2,7 +2,7 @@
 // Nom du projet 		: POBJ DEMO C++
 // Nom du fichier 		: personnage.cpp
 // Date de création 	: 26.11.2025
-// Date de modification : xx.xx.20xx
+// Date de modification : 08.12.2025
 //
 // Auteur 				: Philou (Ph. Bovey)
 //
@@ -13,9 +13,12 @@
 
 //-- librairie standard --//
 #include <iostream>
+#include <exception>
 
 //-- libraire personnelle --// 
 #include "personnage.h"
+#include "Armes.h"
+#include "couteau.h"; 
 
 /* ----------------------------------------------------------------------------------
 // Methode Name			: Personnage 
@@ -27,6 +30,7 @@
 Personnage::Personnage()
 {
 	vie = 100; 
+	monArme = NULL; 
 }
 
 /* ----------------------------------------------------------------------------------
@@ -39,6 +43,8 @@ Personnage::Personnage()
 Personnage::Personnage(int valCommencement)
 {
 	vie = valCommencement;
+	monArme = new couteau("poignard", 30);
+	monArme = new arme("demo", 0, 100); 
 }
 
  
@@ -68,4 +74,40 @@ Personnage::~Personnage()
 {
 	vie = 0; 
 }
+
+
+/* ----------------------------------------------------------------------------------
+// Methode Name			: Attaquer
+// input parameters		:
+// output parameters	:
+// reference parameters :
+// descrription			: 
+---------------------------------------------------------------------------------- */
+int Personnage::Attaquer()
+{
+	//-- gestion exception --//
+	if (monArme == NULL)
+	{
+		throw std::bad_alloc(); 
+	}
+	
+	return 0; 
+}
+
+
+/* ----------------------------------------------------------------------------------
+// Methode Name			: SubirAttaque
+// input parameters		: 
+// output parameters	:
+// reference parameters : attaquant -> personnage
+// descrription			:
+---------------------------------------------------------------------------------- */
+void Personnage::SubirAttaque(Personnage attaquant)
+{
+
+
+
+
+}
+
 

@@ -140,13 +140,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Armes.cpp" />
+    <ClCompile Include="couteau.cpp" />
     <ClCompile Include="demoSLO.cpp" />
     <ClCompile Include="MesMethodes.cpp" />
     <ClCompile Include="personnage.cpp" />
     <ClCompile Include="user.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Armes.h" />
     <ClInclude Include="ClassDemo.h" />
+    <ClInclude Include="couteau.h" />
     <ClInclude Include="mesFcts.h" />
     <ClInclude Include="personnage.h" />
     <ClInclude Include="user.h" />
