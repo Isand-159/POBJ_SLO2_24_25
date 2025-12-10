@@ -48,9 +48,10 @@ class Personnage
 
 		//-- méthode --// 
 		void AfficherVie(); 
-		
 		int Attaquer();
+		void ChoisirArme(); 
 		void SubirAttaque(Personnage attaquant);
+		bool SupprimerArme(); 
 
 
 

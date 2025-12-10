@@ -103,6 +103,9 @@ void main()
 		std::cerr << "type d'erreur : " << typeid(erreur).name() << std::endl; 
 	}
 
+	slo2Etudiant->ChoisirArme(); 
+	slo2Etudiant->SupprimerArme(); 
+
 
 	//-- destruction de l'objet dynamique
 	delete slo2Etudiant; 

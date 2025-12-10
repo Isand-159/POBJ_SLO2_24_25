@@ -73,6 +73,8 @@ void Personnage::AfficherVie()
 Personnage::~Personnage()
 {
 	vie = 0; 
+	if (monArme != NULL)
+		delete monArme; 
 }
 
 
@@ -111,3 +113,27 @@ void Personnage::SubirAttaque(Personnage attaquant)
 }
 
 
+/* ----------------------------------------------------------------------------------
+// Methode Name			: SupprimerArme
+// input parameters		:
+// output parameters	:
+// reference parameters : 
+// descrription			:
+---------------------------------------------------------------------------------- */
+bool Personnage::SupprimerArme()
+{
+	delete monArme;
+	return true; 
+}
+
+/* ----------------------------------------------------------------------------------
+// Methode Name			: ChoisirArme
+// input parameters		:
+// output parameters	:
+// reference parameters :
+// descrription			:
+---------------------------------------------------------------------------------- */
+void Personnage::ChoisirArme()
+{
+	monArme = new couteau("suisse", 1); 
+}
