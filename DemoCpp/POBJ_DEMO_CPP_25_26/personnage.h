@@ -14,6 +14,8 @@
 #define PERSONNAGE_H
 
 #include "Armes.h"
+#include "user.h"
+
 
 class Personnage
 {
@@ -53,6 +55,13 @@ class Personnage
 		void ChoisirArme(); 
 		void SubirAttaque(Personnage attaquant);
 		bool SupprimerArme(); 
+
+
+		friend void user::FctAmitier(Personnage Slo);
+
+		//void DemoFctAmitier(user demo); 
+
+		
 
 
 

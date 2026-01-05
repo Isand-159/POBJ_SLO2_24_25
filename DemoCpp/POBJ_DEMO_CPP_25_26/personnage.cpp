@@ -19,6 +19,7 @@
 #include "personnage.h"
 #include "Armes.h"
 #include "couteau.h"; 
+#include "user.h"
 
 /* ----------------------------------------------------------------------------------
 // Methode Name			: Personnage 
@@ -31,6 +32,8 @@ Personnage::Personnage()
 {
 	vie = 100; 
 	monArme = NULL; 
+
+	
 }
 
 /* ----------------------------------------------------------------------------------
@@ -60,6 +63,9 @@ void Personnage::AfficherVie()
 {
 	std::cout << Personnage::vie << std::endl; 
 	std::cout << vie << std::endl; 
+
+	Attaquer(); 
+	this->Attaquer(); 
 }
 
 
@@ -145,3 +151,6 @@ void Personnage::ChoisirArme()
 {
 	monArme = new couteau("suisse", 1); 
 }
+
+
+

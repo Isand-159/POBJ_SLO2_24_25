@@ -1,8 +1,8 @@
 //-----------------------------------------------------------------------------------//
-// Nom du projet 		: POBJ DEMO C++
+// Project Name  		: POBJ DEMO C++
 // Nom du fichier 		: user.cpp
 // Date de création 	: 12.03.2024
-// Date de modification : xx.xx.20xx
+// Date de modification : 17.12.2025
 //
 // Auteur 				: Philou (Ph. Bovey)
 //
@@ -17,8 +17,9 @@
 
 //-- lib perso 
 #include "user.h"
+#include "personnage.h"
 
-
+//-- initialisation de variables static <-> /!\ OBLIGATION 
 short user::LIM_MAX = 0; 
 short user::LIM_MIN = 0; 
 
@@ -37,6 +38,7 @@ short user::LIM_MIN = 0;
 user::user(short limitmax, short limitmin) : LIMIT_MAX_USER(limitmax), LIMIT_MIN_USER(limitmin)
 {
 	
+
 }
 
 //----------------------------------------------------------------------------------//
@@ -127,6 +129,8 @@ void user::AfficherMsgUser(e_MessageUser codeMsg)
 	{
 		case msg1 : 
 			std::cout << "inserer valeur : "; 
+			//LIM_MAX = 10; 
+			FctDemoStatique(1, 1); 
 			break; 
 		case msg2 :
 			std::cout << "Erreur valeur non valide" << std::endl; 
@@ -140,15 +144,6 @@ void user::AfficherMsgUser(e_MessageUser codeMsg)
 	}
 
 }
-
-
-
-
-/*void AfficherMsgUser(int codeMsg);
-float GetNumberValue();
-void SetNumberValue(float valUser);
-bool ValiderValUser(float valATester); */ 
-
 
 //----------------------------------------------------------------------------------//
 // Nom de la méthode	: FctDemoStatique
@@ -171,6 +166,25 @@ void user::FctDemoStatique(char min, char max)
 	}
 	
 }
+
+
+
+//----------------------------------------------------------------------------------//
+// Nom de la méthode	: FctAmitier
+// Entrée				: 
+// Sortie				:  
+// in-out				: 
+// Description			:  
+// Remarque				: 
+//----------------------------------------------------------------------------------//
+void user::FctAmitier(Personnage Slo)
+{
+	
+	Slo.vie = 10; 
+}
+
+
+
 
 
 /*void FctDemoStatique(char min, char max)

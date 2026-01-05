@@ -80,10 +80,21 @@ void main()
 
 	//-- démo statique --// 
 	user demoStatique(0,0);
+	user* demo2; 
+
+	demo2 = new user(10, 100); 
+
+	demo2->LIM_MAX = 10; 
 	
 	demoStatique.FctDemoStatique(0, 0); 
 
-	user::FctDemoStatique(0, 0); 
+	user::FctDemoStatique(1, 10); 
+
+	//user::AfficherMsgUser(demo2); 
+
+	demoStatique.LIM_MAX = 0; 
+
+	 
 
 	//user::AfficherMsgUser(demoStatique);
 	demoStatique.AfficherMsgUser(user::msg1); 
