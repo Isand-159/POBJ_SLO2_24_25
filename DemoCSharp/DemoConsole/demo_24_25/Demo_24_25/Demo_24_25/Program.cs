@@ -55,6 +55,9 @@ namespace Demo_24_25
             demoChar = (char)0x65;        // -> caractère ASCII - table standart 
 
 
+            //-- tableau d'entier --// 
+            int[] tb = new int[10];  
+
             // type primaire - Reel  
             //-- taille : 8 octets
             float valUserFloat = (float)3.14;
@@ -86,6 +89,26 @@ namespace Demo_24_25
             //-- message user pour choix option --// 
             Console.Write("Choisir votre démo [1 à X] : " );
 
+            //-- affichage entier 
+            Console.Write(valByte);
+            Console.Write("\n");
+
+            //-- affichae entier -> hexa 
+            Console.Write(valByte.ToString("x"));
+            Console.Write("\n");
+            //Console.Write(demoChar.ToString("x"));
+
+            //-- affichae entier -> binaire 
+            Console.Write(valByte.ToString("b"));
+            Console.Write("\n");
+
+            //-- affichage réel 
+            Console.Write(valUserFloat);
+            Console.Write("\n");
+            Console.Write(valUserFloat.ToString("f1")); 
+            Console.Write("\n");
+
+
             //-- récupération d'une chaine de caractère --//
             infoUser_o = Console.ReadLine();
 
@@ -101,11 +124,7 @@ namespace Demo_24_25
 
             //-- récupération d'une touche spécfique --//
             //-- message user pour choix option --// 
-            Console.Write("Test - appuyer sur n'importe quelle touche : ");
-
-
-
-
+            Console.Write("Test - appuyer sur n'importe quelle touche : ")
 
             //-- méthode message console 
             Console.WriteLine("Test !!!");
@@ -116,7 +135,7 @@ namespace Demo_24_25
 
             //-- lecture d'un caractère --// 
             //-- variable --// 
-            ConsoleKey pressedKey; 
+            //ConsoleKey pressedKey; 
 
 
 
@@ -124,14 +143,59 @@ namespace Demo_24_25
             //demoInt = Console.Read();
             //Message = Console.ReadLine();
 
-            ConsoleKeyInfo touche = Console.ReadKey(); 
+            ConsoleKeyInfo touche = Console.ReadKey();
 
             //demoDouble = Convert.ToDouble(Message); 
 
             //ConsoleKeyInfo
+
+
+            //-- écriture des tests --// 
+            //-> if 
+            if (testFct == false)
+            { }
+            else if (testFct == true) 
+            { }
+            else 
+            { }
+
+            //-> switch 
+            switch(touche.Key)
+            {
+                case ConsoleKey.A :
+                    break;
+
+                default:
+                    break; 
             
+            }
+
+            //-- itération --// 
+            //--> while 
+            while (touche.Key != ConsoleKey.Escape)
+            { }
+
+            //--> do..while 
+            do
+            {
+            } while (touche.Key != ConsoleKey.Escape); 
+
+            for(int index = 0; index < 10 ; index++)
+            {
+                tb[index] = index; 
+            }
+
+            //-- mode lecture seul
+            // /!\ attention l'index doit être déclarer dans la boucle
+            foreach (int i in tb)
+            {
+                
+            }
+
+            //-- mode lecture écriture 
 
 
         }
     }
 }
+ 
