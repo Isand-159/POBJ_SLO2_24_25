@@ -1,8 +1,8 @@
 //-----------------------------------------------------------------------------------//
-// Nom du projet 		: POBJ DEMO C++
+// Project Name 		: POBJ DEMO C++
 // Nom du fichier 		: ClassDemo.cpp
 // Date de création 	: 12.03.2024
-// Date de modification : xx.xx.20xx
+// Date de modification : 17.12.2025
 //
 // Auteur 				: Philou (Ph. Bovey)
 //
@@ -16,6 +16,8 @@
 //-- déclaration lib --// 
 #include <string>
 
+
+class Personnage; 
 class user
 {
 	//-- attributs --// 
@@ -23,6 +25,8 @@ class user
 	public:
 		//static int demoStatic;*/  
 		enum e_MessageUser : int { msg1, msg2, msg3 };
+		static short LIM_MAX;
+		static short LIM_MIN;
 
 	//-- protected
 	protected : 
@@ -32,6 +36,7 @@ class user
 	private : 
 		const short LIMIT_MAX_USER; 
 		const short LIMIT_MIN_USER; 
+		
 
 
 	//-- constructeur --// 
@@ -51,8 +56,17 @@ class user
 		float GetNumberValue(); 
 		void SetNumberValue(float valUser); 
 		bool ValiderValUser(float valATester); 
+
+		// -> Amitier -> donner des droits spécifique à objet 
+		// -> ici Personnage
+		// -> ce prototype doit être déclarer dans la class personnage pour avoir accès au droit privé 
+		void FctAmitier(Personnage Slo); 
 		
-		static void FctDemoStatique(void); 
+
+
+		static void FctDemoStatique(char max, char min); 
+
+		//void FctDemoStatique(short max, short min); 
 
 	//-- protected
 

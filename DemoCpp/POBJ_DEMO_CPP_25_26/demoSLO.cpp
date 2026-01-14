@@ -20,6 +20,9 @@
 
 //-- personnal libraries -> class --//
 #include "mesFcts.h"
+#include "personnage.h"
+#include "couteau.h"
+#include "user.h"
 
 //-- main programme -> entry point of the programm --//
 void main()
@@ -28,12 +31,12 @@ void main()
 	//-- static memory -> "ROM" 
 	//-- primitive type  --// 
 	//-- integer --//
-	bool valB;			//-> 1 octet			//-> true ou false 
-	char valC;			//-> 1 octet
-	short valS;			//-> 2 octet
-	int valI, valX;		//-> 4 octet 
-	long valL;			//-> 4 octet 
-	long long valLL;	//-> 8 octet
+	bool valB;					//-> 1 octet			//-> true ou false 
+	char valC;					//-> 1 octet
+	short valS;					//-> 2 octet
+	int valI, valX, taille;		//-> 4 octet 
+	long valL;					//-> 4 octet 
+	long long valLL;			//-> 8 octet
 	
 	//-- example with normalized type --// 
 	int8_t valI2;
@@ -43,6 +46,10 @@ void main()
 	double valD;		//-> 8 octet 
 
 	bool A = true;		//-> not linked to a numeric value
+
+	//-- taille en octet du type booléen --// 
+	taille = sizeof(bool); 
+
 
 	//-- declaration of table (static memory) --// 
 	int tbDemo[10]; 
@@ -62,9 +69,72 @@ void main()
 	//description : -> class -> objet -> () <- constructor calling 
 	std::string chaine("hello"), chaine2;
 
+	//-- déclaration d'objet type 
+	Personnage slo2Student(50);		//object statique 
+	Personnage *slo2Etudiant;		//object dynamique 
+
+	couteau couteauSuisse("couteau suisse", 1);  
+
+	slo2Student.taille = 160; 
+
+
+	//-- démo statique --// 
+	user demoStatique(0,0);
+	user* demo2; 
+
+	demo2 = new user(10, 100); 
+
+	demo2->LIM_MAX = 10; 
+	
+	demoStatique.FctDemoStatique(0, 0); 
+
+	user::FctDemoStatique(1, 10); 
+
+	//user::AfficherMsgUser(demo2); 
+
+	demoStatique.LIM_MAX = 0; 
+
+	 
+
+	//user::AfficherMsgUser(demoStatique);
+	demoStatique.AfficherMsgUser(user::msg1); 
+	
+	
+
+
 	//-- object instantiation --// 
 	chaine = "HELLO"; 
 	chaine2 = "SLO"; 
+
+	//-- instancier un objet dynamique --// 
+	slo2Etudiant = new Personnage(); 
+
+	//-- afficher vie sur objet statique 
+	slo2Student.AfficherVie(); 
+
+	//-- affficher vie sur objet dynamique
+	slo2Etudiant->AfficherVie(); 
+
+	//-- tester une exception --// 
+	try 
+	{
+		slo2Etudiant->Attaquer(); 
+	}
+	catch (std::exception &erreur)
+	{
+		//-- affichage exception --// 
+		std::cerr << "cause de l'exception : " << erreur.what() << std::endl; 
+		std::cerr << "type d'erreur : " << typeid(erreur).name() << std::endl; 
+	}
+
+	slo2Etudiant->ChoisirArme(); 
+	slo2Etudiant->SupprimerArme(); 
+
+
+	//-- destruction de l'objet dynamique
+	delete slo2Etudiant; 
+
+	slo2Etudiant->AfficherVie(); 
 
 	//-- use of an object -> methode utilisation 
 	//-> lenth of character string 

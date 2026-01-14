@@ -21,8 +21,5 @@ void Convertir(int valAConv, char* binaire);
 void Convertir(int valAConv, char (&binaire)[100]);
 
 
-
-
-
 #endif // !CLASSE_DEMO_H 
 
