@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\KSA\\POBJ\\C#\\Ex0_Conversion\\Ex0_Conversion\\Ex0_Conversion.csproj": {}
+    "C:\\KSA\\POBJ\\POBJ_SLO2_24_25\\Exercices\\C#\\Ex0_Conversion\\Ex0_Conversion\\Ex0_Conversion.csproj": {}
   },
   "projects": {
-    "C:\\KSA\\POBJ\\C#\\Ex0_Conversion\\Ex0_Conversion\\Ex0_Conversion.csproj": {
+    "C:\\KSA\\POBJ\\POBJ_SLO2_24_25\\Exercices\\C#\\Ex0_Conversion\\Ex0_Conversion\\Ex0_Conversion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\KSA\\POBJ\\C#\\Ex0_Conversion\\Ex0_Conversion\\Ex0_Conversion.csproj",
+        "projectUniqueName": "C:\\KSA\\POBJ\\POBJ_SLO2_24_25\\Exercices\\C#\\Ex0_Conversion\\Ex0_Conversion\\Ex0_Conversion.csproj",
         "projectName": "Ex0_Conversion",
-        "projectPath": "C:\\KSA\\POBJ\\C#\\Ex0_Conversion\\Ex0_Conversion\\Ex0_Conversion.csproj",
+        "projectPath": "C:\\KSA\\POBJ\\POBJ_SLO2_24_25\\Exercices\\C#\\Ex0_Conversion\\Ex0_Conversion\\Ex0_Conversion.csproj",
         "packagesPath": "C:\\Users\\karstopa\\.nuget\\packages\\",
-        "outputPath": "C:\\KSA\\POBJ\\C#\\Ex0_Conversion\\Ex0_Conversion\\obj\\",
+        "outputPath": "C:\\KSA\\POBJ\\POBJ_SLO2_24_25\\Exercices\\C#\\Ex0_Conversion\\Ex0_Conversion\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
