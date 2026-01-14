@@ -1,0 +1,15 @@
+C:\PBY\GITHUB\POBJ_DEMO_SLO25_26\DemoCSharp\DemoConsole\demo25_26\demo\bin\Debug\net8.0\demo.exe
+C:\PBY\GITHUB\POBJ_DEMO_SLO25_26\DemoCSharp\DemoConsole\demo25_26\demo\bin\Debug\net8.0\demo.deps.json
+C:\PBY\GITHUB\POBJ_DEMO_SLO25_26\DemoCSharp\DemoConsole\demo25_26\demo\bin\Debug\net8.0\demo.runtimeconfig.json
+C:\PBY\GITHUB\POBJ_DEMO_SLO25_26\DemoCSharp\DemoConsole\demo25_26\demo\bin\Debug\net8.0\demo.dll
+C:\PBY\GITHUB\POBJ_DEMO_SLO25_26\DemoCSharp\DemoConsole\demo25_26\demo\bin\Debug\net8.0\demo.pdb
+C:\PBY\GITHUB\POBJ_DEMO_SLO25_26\DemoCSharp\DemoConsole\demo25_26\demo\obj\Debug\net8.0\demo.GeneratedMSBuildEditorConfig.editorconfig
+C:\PBY\GITHUB\POBJ_DEMO_SLO25_26\DemoCSharp\DemoConsole\demo25_26\demo\obj\Debug\net8.0\demo.AssemblyInfoInputs.cache
+C:\PBY\GITHUB\POBJ_DEMO_SLO25_26\DemoCSharp\DemoConsole\demo25_26\demo\obj\Debug\net8.0\demo.AssemblyInfo.cs
+C:\PBY\GITHUB\POBJ_DEMO_SLO25_26\DemoCSharp\DemoConsole\demo25_26\demo\obj\Debug\net8.0\demo.csproj.CoreCompileInputs.cache
+C:\PBY\GITHUB\POBJ_DEMO_SLO25_26\DemoCSharp\DemoConsole\demo25_26\demo\obj\Debug\net8.0\demo.sourcelink.json
+C:\PBY\GITHUB\POBJ_DEMO_SLO25_26\DemoCSharp\DemoConsole\demo25_26\demo\obj\Debug\net8.0\demo.dll
+C:\PBY\GITHUB\POBJ_DEMO_SLO25_26\DemoCSharp\DemoConsole\demo25_26\demo\obj\Debug\net8.0\refint\demo.dll
+C:\PBY\GITHUB\POBJ_DEMO_SLO25_26\DemoCSharp\DemoConsole\demo25_26\demo\obj\Debug\net8.0\demo.pdb
+C:\PBY\GITHUB\POBJ_DEMO_SLO25_26\DemoCSharp\DemoConsole\demo25_26\demo\obj\Debug\net8.0\demo.genruntimeconfig.cache
+C:\PBY\GITHUB\POBJ_DEMO_SLO25_26\DemoCSharp\DemoConsole\demo25_26\demo\obj\Debug\net8.0\ref\demo.dll
