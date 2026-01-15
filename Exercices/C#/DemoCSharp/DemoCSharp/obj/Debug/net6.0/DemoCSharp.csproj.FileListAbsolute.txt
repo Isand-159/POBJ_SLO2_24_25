@@ -1,0 +1,15 @@
+C:\KSA\POBJ\C#\DemoCSharp\DemoCSharp\bin\Debug\net6.0\DemoCSharp.exe
+C:\KSA\POBJ\C#\DemoCSharp\DemoCSharp\bin\Debug\net6.0\DemoCSharp.deps.json
+C:\KSA\POBJ\C#\DemoCSharp\DemoCSharp\bin\Debug\net6.0\DemoCSharp.runtimeconfig.json
+C:\KSA\POBJ\C#\DemoCSharp\DemoCSharp\bin\Debug\net6.0\DemoCSharp.dll
+C:\KSA\POBJ\C#\DemoCSharp\DemoCSharp\bin\Debug\net6.0\DemoCSharp.pdb
+C:\KSA\POBJ\C#\DemoCSharp\DemoCSharp\obj\Debug\net6.0\DemoCSharp.csproj.AssemblyReference.cache
+C:\KSA\POBJ\C#\DemoCSharp\DemoCSharp\obj\Debug\net6.0\DemoCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\KSA\POBJ\C#\DemoCSharp\DemoCSharp\obj\Debug\net6.0\DemoCSharp.AssemblyInfoInputs.cache
+C:\KSA\POBJ\C#\DemoCSharp\DemoCSharp\obj\Debug\net6.0\DemoCSharp.AssemblyInfo.cs
+C:\KSA\POBJ\C#\DemoCSharp\DemoCSharp\obj\Debug\net6.0\DemoCSharp.csproj.CoreCompileInputs.cache
+C:\KSA\POBJ\C#\DemoCSharp\DemoCSharp\obj\Debug\net6.0\DemoCSharp.dll
+C:\KSA\POBJ\C#\DemoCSharp\DemoCSharp\obj\Debug\net6.0\refint\DemoCSharp.dll
+C:\KSA\POBJ\C#\DemoCSharp\DemoCSharp\obj\Debug\net6.0\DemoCSharp.pdb
+C:\KSA\POBJ\C#\DemoCSharp\DemoCSharp\obj\Debug\net6.0\DemoCSharp.genruntimeconfig.cache
+C:\KSA\POBJ\C#\DemoCSharp\DemoCSharp\obj\Debug\net6.0\ref\DemoCSharp.dll
