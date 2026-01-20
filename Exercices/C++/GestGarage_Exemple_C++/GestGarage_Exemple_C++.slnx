@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="GestGarage_Exemple_C++/GestGarage_Exemple_C++.vcxproj" />
+  <Project Path="GestGarage_Exemple_C++/GestGarage_Exemple_C++.vcxproj" Id="89824d88-2937-4609-9e83-e575bf5baf32" />
 </Solution>
