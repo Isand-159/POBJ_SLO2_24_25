@@ -1,79 +1,92 @@
-﻿// Caneva Ex1 SL228_POBJ language C# 
-// Visual Studio 2015
-// 11.11.2016 C. Huber
+﻿// Caneva Ex1 SL228_POBJ
+// Conversion C -> C# (console)
 
-# include <stdio.h>
+using System;
 
-int main(void)
+class Program
 {
-	char UserAnswer;
-	int ValA, ValB;
-	// Variables pour test A et B
-	short i;
-	short ValB1;
-	double ValB2;
+    static void Main(string[] args)   // C : int main(void)
+    {
+        char UserAnswer;
+        int ValA, ValB;
+        short i;
+        short ValB1;
+        double ValB2;
 
-	printf("Exercice 1 : Huber Christian \n");
-	printf("Solution en C a trandformer en C++ \n");
+        Console.WriteLine("Exercice 1 : Huber Christian ");   // C : printf(...)
+        Console.WriteLine("Solution en C a trandformer en C++ "); // C : printf(...)
 
+        do
+        {
+            Console.WriteLine("Test A ou B, Q pour Quitter "); // C : printf(...)
 
-	do
-	{
-		printf("Test A ou B, Q pour Quitter \n");
-		scanf_s("%c%*c", &UserAnswer, 2);
-		switch (UserAnswer)
-		{
-			case 'A':
-			case 'a':
-				printf("TestA: entrez un nombre entre 1 et 9 \n");
-				scanf_s("%d%*c", &ValA);
+            string input = Console.ReadLine();                // C : scanf_s("%c%*c", &UserAnswer, 2)
+            UserAnswer = (input != null && input.Length > 0) ? input[0] : '\0'; // récupération du char
 
-				if (ValA > 9)
-				{
-					ValA = 9;
-					printf("TestA: ValA limitee a 9 \n");
-				}
-				if (ValA == 0)
-				{
-					ValA = 1;
-					printf("TestA: ValA forcee a 1 \n");
-				}
-				if (ValA > 0)
-				{
-					printf("%d ", ValA);
-					for (i = 0; i < ValA; i++)
-					{
-						printf("*");
-					}
-					printf("\n"); // saut de ligne
-				}
-				else
-				{
-					printf("TestA: ValA est negatif ! \n");
-				}
-				break;
+            switch (UserAnswer)
+            {
+                case 'A':
+                case 'a':
+                    Console.WriteLine("TestA: entrez un nombre entre 1 et 9 "); // C : printf(...)
 
-			case 'B':
-			case 'b':
-				printf("TestB: entrez une valeur entre 0 et 9 \n");
-				scanf_s("%d%*c", &ValB);
-				if (ValB >= 0 && ValB <= 9)
-				{
-					for (i = 0; i < ValB; i++)
-					{
-						ValB1 = 100 + (10 * i);
-						ValB2 = ValB1 / 10000.0;
-						printf("TestB: i= %d ValB1 = %d ValB2 = %lf \n", i, ValB1, ValB2);
-					}
-				}
-				else
-				{
-					printf("TestB: ValB n'est pas entre 0 et 9 ! \n");
-				}
-				break;
+                    if (!int.TryParse(Console.ReadLine(), out ValA))            // C : scanf_s("%d%*c", &ValA)
+                        ValA = 0;
 
-		} // end switch
-	} while (!(UserAnswer == 'Q' || UserAnswer == 'q'));
+                    if (ValA > 9)
+                    {
+                        ValA = 9;
+                        Console.WriteLine("TestA: ValA limitee a 9 ");          // C : printf(...)
+                    }
+                    if (ValA == 0)
+                    {
+                        ValA = 1;
+                        Console.WriteLine("TestA: ValA forcee a 1 ");           // C : printf(...)
+                    }
+                    if (ValA > 0)
+                    {
+                        Console.Write(ValA + " ");                              // C : printf("%d ", ValA)
 
-	return (0);
+                        for (i = 0; i < ValA; i++)
+                        {
+                            Console.Write("*");                                 // C : printf("*")
+                        }
+
+                        Console.WriteLine();                                    // C : printf("\n")
+                    }
+                    else
+                    {
+                        Console.WriteLine("TestA: ValA est negatif ! ");        // C : printf(...)
+                    }
+                    break;
+
+                case 'B':
+                case 'b':
+                    Console.WriteLine("TestB: entrez une valeur entre 0 et 9 "); // C : printf(...)
+
+                    if (!int.TryParse(Console.ReadLine(), out ValB))             // C : scanf_s("%d%*c", &ValB)
+                        ValB = -1;
+
+                    if (ValB >= 0 && ValB <= 9)
+                    {
+                        for (i = 0; i < ValB; i++)
+                        {
+                            ValB1 = (short)(100 + (10 * i));                    // cast short (C# obligatoire)
+                            ValB2 = ValB1 / 10000.0;
+
+                            Console.WriteLine(                                   // C : printf(...)
+                                "TestB: i= {0} ValB1 = {1} ValB2 = {2}",
+                                i, ValB1, ValB2);
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("TestB: ValB n'est pas entre 0 et 9 ! "); // C : printf(...)
+                    }
+                    break;
+            }
+
+        } while (!(UserAnswer == 'Q' || UserAnswer == 'q'));
+
+        // C : return(0)
+    }
 }

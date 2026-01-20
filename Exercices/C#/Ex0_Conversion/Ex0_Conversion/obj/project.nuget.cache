@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "6zG+y/17hHanQY6/wh60nl0tHT42LlnSfREHVBQ5Ox2zIlO2Rt+cJezJg1VBPudzvA+g6SIUUKkXrxXBwOipmg==",
+  "dgSpecHash": "CfPiUjfcJWQ=",
   "success": true,
-  "projectFilePath": "C:\\KSA\\POBJ\\POBJ_SLO2_24_25\\Exercices\\C#\\Ex0_Conversion\\Ex0_Conversion\\Ex0_Conversion.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\ETML-ES\\POBJ_SLO2_24_25\\Exercices\\C#\\Ex0_Conversion\\Ex0_Conversion\\Ex0_Conversion.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\KStop\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\KStop\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\KStop\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\KStop\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.36\\microsoft.netcore.app.host.win-x64.6.0.36.nupkg.sha512"
+  ],
   "logs": []
 }

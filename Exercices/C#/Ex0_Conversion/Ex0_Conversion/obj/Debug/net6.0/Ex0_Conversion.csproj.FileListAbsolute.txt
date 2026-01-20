@@ -1,0 +1,15 @@
+C:\ETML-ES\POBJ_SLO2_24_25\Exercices\C#\Ex0_Conversion\Ex0_Conversion\bin\Debug\net6.0\Ex0_Conversion.exe
+C:\ETML-ES\POBJ_SLO2_24_25\Exercices\C#\Ex0_Conversion\Ex0_Conversion\bin\Debug\net6.0\Ex0_Conversion.deps.json
+C:\ETML-ES\POBJ_SLO2_24_25\Exercices\C#\Ex0_Conversion\Ex0_Conversion\bin\Debug\net6.0\Ex0_Conversion.runtimeconfig.json
+C:\ETML-ES\POBJ_SLO2_24_25\Exercices\C#\Ex0_Conversion\Ex0_Conversion\bin\Debug\net6.0\Ex0_Conversion.dll
+C:\ETML-ES\POBJ_SLO2_24_25\Exercices\C#\Ex0_Conversion\Ex0_Conversion\bin\Debug\net6.0\Ex0_Conversion.pdb
+C:\ETML-ES\POBJ_SLO2_24_25\Exercices\C#\Ex0_Conversion\Ex0_Conversion\obj\Debug\net6.0\Ex0_Conversion.GeneratedMSBuildEditorConfig.editorconfig
+C:\ETML-ES\POBJ_SLO2_24_25\Exercices\C#\Ex0_Conversion\Ex0_Conversion\obj\Debug\net6.0\Ex0_Conversion.AssemblyInfoInputs.cache
+C:\ETML-ES\POBJ_SLO2_24_25\Exercices\C#\Ex0_Conversion\Ex0_Conversion\obj\Debug\net6.0\Ex0_Conversion.AssemblyInfo.cs
+C:\ETML-ES\POBJ_SLO2_24_25\Exercices\C#\Ex0_Conversion\Ex0_Conversion\obj\Debug\net6.0\Ex0_Conversion.csproj.CoreCompileInputs.cache
+C:\ETML-ES\POBJ_SLO2_24_25\Exercices\C#\Ex0_Conversion\Ex0_Conversion\obj\Debug\net6.0\Ex0_Conversion.sourcelink.json
+C:\ETML-ES\POBJ_SLO2_24_25\Exercices\C#\Ex0_Conversion\Ex0_Conversion\obj\Debug\net6.0\Ex0_Conversion.dll
+C:\ETML-ES\POBJ_SLO2_24_25\Exercices\C#\Ex0_Conversion\Ex0_Conversion\obj\Debug\net6.0\refint\Ex0_Conversion.dll
+C:\ETML-ES\POBJ_SLO2_24_25\Exercices\C#\Ex0_Conversion\Ex0_Conversion\obj\Debug\net6.0\Ex0_Conversion.pdb
+C:\ETML-ES\POBJ_SLO2_24_25\Exercices\C#\Ex0_Conversion\Ex0_Conversion\obj\Debug\net6.0\Ex0_Conversion.genruntimeconfig.cache
+C:\ETML-ES\POBJ_SLO2_24_25\Exercices\C#\Ex0_Conversion\Ex0_Conversion\obj\Debug\net6.0\ref\Ex0_Conversion.dll
